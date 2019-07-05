@@ -59,3 +59,13 @@ ____
 >We'll increase our git log-wielding abilities in the next lesson when we look at displaying more info.
 
 ____
+
+5. the ```--oneline``` flag is used to alter how ```git log``` displays information:
+
+```` shell
+$ git log --oneline
+````
+>This command:
+>* lists one commit per line
+>* shows the first 7 characters of the commit's SHA
+>* shows the commit's message
